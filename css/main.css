@@ -1,0 +1,141 @@
+/*========== Fonts Variables ==========*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;500&family=Roboto+Mono:ital,wght@1,300&display=swap");
+/*========== Color Varibales =========*/
+/* ========== Styling Header Section ========== */
+@import url(modules/mixins.css);
+.header-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  font-family: "$Rob";
+  width: 100%;
+  background: transparent; }
+  .header-area nav .navbar-brand {
+    color: white;
+    font-size: 1.15rem;
+    font-weight: 700; }
+    .header-area nav .navbar-brand:hover {
+      color: white; }
+  .header-area .navbar-collapse {
+    padding: 25px 0; }
+    .header-area .navbar-collapse .mr-auto {
+      margin-left: auto; }
+      .header-area .navbar-collapse .mr-auto li {
+        padding: 1rem; }
+        .header-area .navbar-collapse .mr-auto li a {
+          color: white;
+          text-transform: uppercase;
+          font-size: 12px;
+          font-weight: 600; }
+          .header-area .navbar-collapse .mr-auto li a:hover {
+            color: white; }
+    .header-area .navbar-collapse .navbar-light .nav-link {
+      color: white;
+      border: 1px solid #ffffff57;
+      border-radius: 3px;
+      padding: 5px 30px;
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 10px 25px; }
+      .header-area .navbar-collapse .navbar-light .nav-link:hover {
+        transition-duration: 1s;
+        background: white;
+        color: black; }
+
+/* ========== Styling Banner Section ========== */
+.banner_area {
+  padding: 10rem;
+  background-image: linear-gradient(100deg, #4dabff 0%, #62ddff 100%); }
+  .banner_area .content_banner h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 3rem;
+    padding: .5rem 1.5rem; }
+  .banner_area .content_banner p {
+    color: white;
+    padding: .5rem 1.5rem;
+    line-height: 1.8; }
+  .banner_area .content_banner .btn_banner_area {
+    padding: 2.5rem 1.5rem;
+    font-size: 14px;
+    font-family: '$Heeb'; }
+    .banner_area .content_banner .btn_banner_area .bn-btn1 {
+      color: white;
+      border: 1px solid #ffffff57;
+      border-radius: 3px;
+      padding: 5px 30px;
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 10px 25px;
+      text-decoration-line: none;
+      margin: 2.5rem; }
+      .banner_area .content_banner .btn_banner_area .bn-btn1:hover {
+        transition-duration: 1s;
+        background: white;
+        color: black; }
+    .banner_area .content_banner .btn_banner_area .bn-btn2 {
+      color: black;
+      border: 1px solid #ffffff;
+      border-radius: 3px;
+      padding: 5px 30px;
+      background-color: white;
+      padding: 10px 25px;
+      text-decoration-line: none; }
+      .banner_area .content_banner .btn_banner_area .bn-btn2:hover {
+        transition-duration: 1s;
+        background: rgba(255, 255, 255, 0.1);
+        color: white; }
+  .banner_area img {
+    width: 95%;
+    margin: 3rem 5rem; }
+
+.work-area {
+  padding: 7rem; }
+  .work-area .container .main-title {
+    padding-bottom: 2rem; }
+    .work-area .container .main-title h1 {
+      padding-bottom: 2rem;
+      font-weight: 900;
+      font-size: 26px;
+      font-family: '$Heebo'; }
+    .work-area .container .main-title p {
+      color: #9c9c9c;
+      margin: auto;
+      max-width: 65%; }
+  .work-area .container .content-work .row {
+    text-align: center; }
+    .work-area .container .content-work .row div i {
+      width: 6rem;
+      height: 5rem;
+      border: 1px solid #eee;
+      border-radius: 10px;
+      text-align: center;
+      line-height: 5rem;
+      font-size: 28px;
+      color: #222;
+      margin-bottom: 2.5rem;
+      background: #f0eeee;
+      margin-top: 3rem;
+      box-shadow: 0px 13px 24px #9e9e9e33; }
+    .work-area .container .content-work .row div h3 {
+      font-family: '$heebo';
+      color: #222;
+      font-weight: 700;
+      font-size: 18px;
+      margin: -0.5rem; }
+    .work-area .container .content-work .row div p {
+      font-family: '$Rob';
+      color: #4d4d4d8c;
+      font-size: 14px;
+      margin-top: 2rem; }
+    .work-area .container .content-work .row div:hover {
+      transition: all 1.5s; }
+      .work-area .container .content-work .row div:hover i {
+        background-image: linear-gradient(100deg, #4dabff 0%, #62ddff 100%);
+        color: white; }
+      .work-area .container .content-work .row div:hover h3 {
+        color: #4dabff; }
+      .work-area .container .content-work .row div:hover p {
+        color: #777; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,55 @@
+/* ========== Styling Header Section ========== */
+.header-area {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    font-family: "$Rob";
+    width: 100%;
+    background: transparent;
+    nav {
+        .navbar-brand {
+            color: white;
+            font-size: 1.15rem;
+            font-weight: 700;
+            &:hover {
+                color: white;
+            };
+        };
+    };
+    .navbar-collapse {
+        padding: 25px 0 ;
+        .mr-auto {
+            margin-left: auto;
+            li {
+                padding : 1rem;
+                a {
+                    color: white;
+                    text-transform: uppercase;
+                    font-size:12px;
+                    font-weight: 600;
+                    &:hover {
+                        color: white;
+                    };
+                };
+            };
+            
+        };
+        .navbar-light {
+            .nav-link {
+                color: white;
+                border: 1px solid #ffffff57;
+                border-radius: 3px;
+                padding: 5px 30px;
+                background-color: rgba(255,255,255,.1);
+                padding: 10px 25px;
+                &:hover  {
+                    transition-duration: 1s;
+                    background: rgba(255,255,255,1);
+                    color: black;
+                };
+            };
+        };
+    };
+
+};

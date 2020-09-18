@@ -1,0 +1,69 @@
+.work-area {
+    padding: 7rem;
+    .container {
+        .main-title {
+            padding-bottom: 2rem;
+            h1{
+                padding-bottom: 2rem;
+                font-weight: 900;
+                font-size: 26px;
+                font-family: '$Heebo';
+            };
+            p{
+                color: rgb(156, 156, 156);
+                margin: auto;
+                max-width: 65%;
+            };
+            
+        };
+        .content-work {
+            
+            .row {
+                text-align: center;
+                div {
+                    i {
+                        width: 6rem;
+                        height: 5rem;
+                        border: 1px solid #eee;
+                        border-radius: 10px;
+                        text-align: center;
+                        line-height: 5rem;
+                        font-size: 28px;
+                        color: #222;
+                        margin-bottom: 2.5rem;
+                        background: rgb(240, 238, 238);
+                        margin-top: 3rem;
+                        box-shadow: 0px 13px 24px #9e9e9e33;
+
+                    };
+                    h3 {
+                        font-family: '$heebo';
+                        color: #222;
+                        font-weight: 700;
+                        font-size: 18px;
+                        margin: -0.5rem;
+                    };
+                    p {
+                        font-family: '$Rob';
+                        color: #4d4d4d8c;
+                        font-size: 14px;
+                        margin-top: 2rem;
+                    };
+                    &:hover {
+                        transition : all 1.5s ;
+                        i {
+                            background-image: linear-gradient(100deg , rgb(77,171,255) 0% , rgb(98,221,255)100%);
+                            color: white;
+                        };
+                        h3{
+                            color: rgb(77,171,255);
+                        }
+                        p {
+                            color: #777;
+                        };
+                    };  
+                };
+            };
+        };
+    };
+};

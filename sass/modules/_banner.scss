@@ -1,0 +1,59 @@
+/* ========== Styling Banner Section ========== */
+.banner_area {
+    padding : 10rem;
+    background-image: linear-gradient(100deg , rgb(77,171,255) 0% , rgb(98,221,255)100%);
+    .content_banner {
+        h1 {
+            color: white;
+            font-weight: 700;
+            font-size: 3rem;
+            padding: .5rem 1.5rem;
+        };
+        p {
+            color: white;
+            padding: .5rem 1.5rem;
+            line-height: 1.8;
+        };
+        .btn_banner_area {
+            padding: 2.5rem 1.5rem;
+            font-size: 14px;
+            font-family: '$Heeb';
+            .bn-btn1 {
+                color: white;
+                border: 1px solid #ffffff57;
+                border-radius: 3px;
+                padding: 5px 30px;
+                background-color: rgba(255,255,255,.1);
+                padding: 10px 25px;
+                text-decoration-line: none;
+                margin: 2.5rem;
+
+                &:hover  {
+
+                    transition-duration: 1s;
+                    background: rgba(255,255,255,1);
+                    color: black;
+                };
+            };
+            .bn-btn2 {
+                color: black;
+                border: 1px solid #ffffff;
+                border-radius: 3px;
+                padding: 5px 30px;
+                background-color: rgba(255,255,255,1);
+                padding: 10px 25px;
+                text-decoration-line: none;
+                &:hover  {
+                    transition-duration: 1s;
+                    background: rgba(255,255,255,.1);
+                    color: white;
+                };
+            }
+        };
+    };
+    img{
+        width: 95%;
+        margin: 3rem 5rem 
+    };
+        
+};
