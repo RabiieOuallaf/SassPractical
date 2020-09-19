@@ -1,0 +1,74 @@
+/* ================ Styling Tabs Area ================ */
+.tabs_area
+{
+  background-color: #EDF6FF;
+  padding: 120px 0;
+  nav
+  {
+    .nav-item
+    {
+      border: none;
+      background: #fff;
+      text-align: center;
+      line-height: 60px;
+      border-radius: 5px;
+      font-size: 13px;
+      font-family: $Rob;
+      font-weight: 500;
+      text-transform: uppercase;
+      color: $textColor;
+      margin: 0 15px;
+    }
+    .active
+    {
+      background-image: -webkit-linear-gradient(0deg, #4dabff 0%, #62ddff 100%);
+      box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+      color: #fff;
+    }
+  }
+  .tab-content
+  {
+    .left_tabs_sec
+    {
+      vertical-align: middle;
+      align-self: center;
+      h3
+      {
+        color: $textColor;
+        line-height: 45px;
+        font-size: 36px;
+        font-family: $Heeb;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+      h6
+      {
+        color: $textColor;
+        font-size: 16px;
+        font-weight: 700;
+        font-family: $Rob;
+      }
+      p
+      {
+        color: #777;
+        font-size: 14px;
+        margin: 0;
+      }
+      .btn_tabs_area
+      {
+        font-size: 14px;
+        margin-top: 40px;
+        a
+        {
+          margin-top: 7px;
+          text-decoration: none;
+          color: white;
+          border: none;
+          border-radius: 3px;
+          padding: 17px 30px;
+          background-image: -webkit-linear-gradient(0deg, #4dabff 0%, #62ddff 100%);
+        }
+      }
+    }
+  }
+}

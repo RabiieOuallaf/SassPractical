@@ -138,4 +138,55 @@
       .work-area .container .content-work .row div:hover p {
         color: #777; }
 
+/* ================ Styling Tabs Area ================ */
+.tabs_area {
+  background-color: #EDF6FF;
+  padding: 120px 0; }
+  .tabs_area nav .nav-item {
+    border: none;
+    background: #fff;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-family: "Roboto Mono";
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #222;
+    margin: 0 15px; }
+  .tabs_area nav .active {
+    background-image: -webkit-linear-gradient(0deg, #4dabff 0%, #62ddff 100%);
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+    color: #fff; }
+  .tabs_area .tab-content .left_tabs_sec {
+    vertical-align: middle;
+    align-self: center; }
+    .tabs_area .tab-content .left_tabs_sec h3 {
+      color: #222;
+      line-height: 45px;
+      font-size: 36px;
+      font-family: "Heebo";
+      font-weight: bold;
+      margin-bottom: 20px; }
+    .tabs_area .tab-content .left_tabs_sec h6 {
+      color: #222;
+      font-size: 16px;
+      font-weight: 700;
+      font-family: "Roboto Mono"; }
+    .tabs_area .tab-content .left_tabs_sec p {
+      color: #777;
+      font-size: 14px;
+      margin: 0; }
+    .tabs_area .tab-content .left_tabs_sec .btn_tabs_area {
+      font-size: 14px;
+      margin-top: 40px; }
+      .tabs_area .tab-content .left_tabs_sec .btn_tabs_area a {
+        margin-top: 7px;
+        text-decoration: none;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        padding: 17px 30px;
+        background-image: -webkit-linear-gradient(0deg, #4dabff 0%, #62ddff 100%); }
+
 /*# sourceMappingURL=main.css.map */
