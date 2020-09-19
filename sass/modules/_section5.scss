@@ -1,0 +1,46 @@
+/* ================ Styling Section5 Area ================ */
+
+.section5 {
+	background-color: #edf6ff;
+	padding: 120px 0;
+	.left_section5_side {
+		vertical-align: middle;
+		align-self: center;
+		h3 {
+			color: $textColor;
+			line-height: 45px;
+			font-size: 36px;
+			font-family: $Heeb;
+			font-weight: bold;
+			margin-bottom: 20px;
+		}
+		h6 {
+			color: $textColor;
+			font-size: 16px;
+			font-weight: 700;
+			font-family: $Rob;
+		}
+		p {
+			color: #777;
+			font-size: 14px;
+			margin: 0;
+		}
+		.btn_section5_area {
+			font-size: 14px;
+			margin-top: 40px;
+			a {
+				margin-top: 7px;
+				text-decoration: none;
+				color: white;
+				border: none;
+				border-radius: 3px;
+				padding: 17px 30px;
+				background-image: -webkit-linear-gradient(
+					0deg,
+					#4dabff 0%,
+					#62ddff 100%
+				);
+			}
+		}
+	}
+}

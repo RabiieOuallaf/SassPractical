@@ -1,0 +1,21 @@
+/* ================ Styling Section4 Area ================ */
+
+.section4 {
+    padding: 80px 0;
+    text-align: center;
+    h1 {
+        font-size: 36px;
+        color: #222;
+        margin-bottom: 15px;
+        font-weight: 700;
+        font-family: $Heeb;
+        text-transform: uppercase;
+    }
+    p{
+        font-size: 14px;
+        color: #777;
+        max-width: 580px;
+        margin: auto;
+        margin-bottom: 30px
+    }
+}
